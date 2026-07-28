@@ -9,18 +9,12 @@
 /backend/prisma/*.db-journal
 
 # Environment Variables - NEVER COMMIT THESE
-.env
-.env.local
 .env.*.local
-.env.development
-.env.staging
-.env.production
 *.env
 !.env.example
 
 # Editor
 .idea
-.vscode
 *.swp
 
 # Agents
@@ -42,3 +36,8 @@ contracts/vault/test_snapshots
 *.pfx
 secrets/
 .secrets/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
+node_modules
